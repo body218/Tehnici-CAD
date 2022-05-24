@@ -1,0 +1,6 @@
+ lib="C:\Users\Body_\Desktop\An 2\UTCN-ETTI SEM II\CAD\Proiect Termometru\leds\ledorange.lib", offset=1039, size=63
+ lib="C:\Users\Body_\Desktop\An 2\UTCN-ETTI SEM II\CAD\Proiect Termometru\leds\ledyellow.lib", offset=1051, size=62
+ lib="C:\Users\Body_\Desktop\An 2\UTCN-ETTI SEM II\CAD\Proiect Termometru\leds\ledred.lib", offset=1042, size=60
+ lib="C:\Users\Body_\Desktop\An 2\UTCN-ETTI SEM II\CAD\Proiect Termometru\leds\ledgreen.lib", offset=1034, size=168
+ lib="C:\Users\Body_\Desktop\An 2\UTCN-ETTI SEM II\CAD\Proiect Termometru\leds\ledblue.lib", offset=1071, size=62
+ lib=c:\cadence\spb_17.4\tools\PSpice\Library\opamp.lib, offset=96448, size=1161

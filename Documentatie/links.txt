@@ -1,0 +1,21 @@
+https://www.electronics-tutorials.ws/io/thermistors.html
+https://www.scritub.com/tehnica-mecanica/Amplificatoare-diferentiale-si43153.php
+https://yourbusiness.azcentral.com/buffer-electronics-20738.html
+https://illustrationprize.com/ro/21-millmans-theorem.html
+https://ro.wikipedia.org/wiki/Divizor_de_tensiune
+
+
+Leds:
+https://www.tme.eu/Document/41feddd99f5fc5f6542b7983d986207e/LL-504BD2E-B4-2B.pdf -blue
+https://www.tme.eu/Document/c7968a613eee16445eaebd7373906708/FYL-5013YD1C.pdf -galbena
+https://www.tme.eu/Document/4a3d9c7f836ef6b3cd1a2b9a4c4a6b57/HLMP-D401.pdf -portocaliu
+https://www.tme.eu/Document/f42671d9934cb67eb6342a1365893ba3/HLMP-3507.pdf -verde
+https://www.tme.eu/Document/f3872eef9fb3bbe7862b3681fdc36699/333-2SDRD-S530-A3.pdf -rosie
+
+https://www.st.com/resource/en/datasheet/tl082.pdf
+
+Rezistente
+http://www.electronicsplanet.ch/en/resistor/e96-series.php
+
+
+

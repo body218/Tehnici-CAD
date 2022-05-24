@@ -1,0 +1,67 @@
+(ExpressProject "Termometru"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 S022 (3984475)  [10/10/2021]-[05/16/22]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\termometru.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\termometru-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\termometru-pspicefiles\schematic1\timpparamterlist.sim"
+        (DisplayName "SCHEMATIC1-timpparamterlist")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\termometru-pspicefiles\schematic1\simulare.sim"
+        (DisplayName "SCHEMATIC1-simulare")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\termometru-pspicefiles\schematic1\timpparamterlist.sim"))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\Body_\Desktop\An 2\UTCN-ETTI SEM II\CAD\Proiect Termometru\OrcadTermometru_Final\termometru.dsn")
+      (Path "Design Resources"
+         "C:\Users\Body_\Desktop\An 2\UTCN-ETTI SEM II\CAD\Proiect Termometru\OrcadTermometru_Final\termometru.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 605"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1290 24 623")
+        (Scroll "-141 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\BODY_\DESKTOP\AN 2\UTCN-ETTI SEM II\CAD\PROIECT TERMOMETRU\ORCADTERMOMETRU_FINAL\TERMOMETRU.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (MPSSessionName "Body_")
+  (ISPCBBASICLICENSE "false"))

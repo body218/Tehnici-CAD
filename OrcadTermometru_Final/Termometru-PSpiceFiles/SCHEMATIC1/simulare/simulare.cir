@@ -1,0 +1,24 @@
+** Profile: "SCHEMATIC1-simulare"  [ C:\Users\Body_\Desktop\An 2\UTCN-ETTI SEM II\CAD\Proiect Termometru\OrcadTermometru_Final\termometru-pspicefiles\schematic1\simulare.sim ] 
+
+** Creating circuit file "simulare.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.4.0\PSpice.ini file:
+.lib "C:\Users\Body_\Desktop\An 2\UTCN-ETTI SEM II\CAD\Proiect Termometru\LEDS\LedOrange.lib" 
+.lib "C:\Users\Body_\Desktop\An 2\UTCN-ETTI SEM II\CAD\Proiect Termometru\LEDS\LedYellow.lib" 
+.lib "C:\Users\Body_\Desktop\An 2\UTCN-ETTI SEM II\CAD\Proiect Termometru\LEDS\LedRed.lib" 
+.lib "C:\Users\Body_\Desktop\An 2\UTCN-ETTI SEM II\CAD\Proiect Termometru\LEDS\LedGreen.lib" 
+.lib "C:\Users\Body_\Desktop\An 2\UTCN-ETTI SEM II\CAD\Proiect Termometru\LEDS\LedBlue.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

@@ -1,0 +1,244 @@
+
+**** 05/16/22 09:31:33 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-timpparamterlist"  [ C:\Users\Body_\Desktop\An 2\UTCN-ETTI SEM II\CAD\Proiect Termometru\OrcadTermometru_Fin
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "timpparamterlist.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.4.0\PSpice.ini file:
+.lib "C:\Users\Body_\Desktop\An 2\UTCN-ETTI SEM II\CAD\Proiect Termometru\LEDS\LedOrange.lib" 
+.lib "C:\Users\Body_\Desktop\An 2\UTCN-ETTI SEM II\CAD\Proiect Termometru\LEDS\LedYellow.lib" 
+.lib "C:\Users\Body_\Desktop\An 2\UTCN-ETTI SEM II\CAD\Proiect Termometru\LEDS\LedRed.lib" 
+.lib "C:\Users\Body_\Desktop\An 2\UTCN-ETTI SEM II\CAD\Proiect Termometru\LEDS\LedGreen.lib" 
+.lib "C:\Users\Body_\Desktop\An 2\UTCN-ETTI SEM II\CAD\Proiect Termometru\LEDS\LedBlue.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC TEMP LIST -10 10 50 90  
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source TERMOMETRU
+R_R6         N41698 0  2k TC=0,0 
+X_U5B         VREF N42162 VCC -VCC N42162 TL082
+R_R29         0 N43290  1k TC=0,0 
+R_R18         N43524 VCC  665 TC=0,0 
+R_R30         N42646 VCC  665 TC=0,0 
+R_R4         N41606 N41698  1k TC=0,0 
+R_R28         N43290 VCC  1.3k TC=0,0 
+V_V1         VCC 0 15
+R_R33         0 N43580  1k TC=0,0 
+R_R1         VTH VCC  27.4k TC=0,0 
+X_U4B         VOUT1 N42184 VCC -VCC N418664 TL082
+R_R12         0 N42184  1k TC=0,0 
+D_D5          N436260 N435424 Diode_Red 
+X_U9B         N42646 VOUT1 VCC -VCC OUT4 TL082
+R_R16         0 N43156  1k TC=0,0 
+V_V2         -VCC 0 -15
+X_U8B         VOUT1 N43524 VCC -VCC N433684 TL082
+X_U13B         VOUT1 N43580 VCC -VCC N435424 TL082
+X_U7B         N43090 VOUT1 VCC -VCC OUT3 TL082
+R_R2         VREF VCC  14k TC=0,0 
+R_R19         0 N43524  1k TC=0,0 
+R_R27         0 N42472  1k TC=0,0 
+D_D2          N427680 N426864 Diode_Green 
+X_U12B         N43290 VOUT1 VCC -VCC OUT5 TL082
+X_U10B         VOUT1 N42836 VCC -VCC N426864 TL082
+R_R22         0 N42836  1k TC=0,0 
+X_U1A         VTH N41606 VCC -VCC N41606 TL082
+R_R15         N43156 VCC  1.3k TC=0,0 
+R_RNTC         0 VTH  {Rntc} TC=0,0 
+R_R24         N43090 VCC  301 TC=0,0 
+R_R26         N42472 VCC  261 TC=0,0 
+R_R13         OUT1 N419780  634 TC=0,0 
+R_R10         0 VTH  47.5k TC=0,0 
+R_R25         0 N43090  1k TC=0,0 
+R_R7         N42170 VOUT1  2k TC=0,0 
+R_R3         0 VREF  1k TC=0,0 
+R_R14         OUT2 N427680  681 TC=0,0 
+D_D3          N434380 N433684 yellowDiode 
+R_R5         N42162 N42170  1k TC=0,0 
+R_R23         OUT4 N430380  681 TC=0,0 
+D_D1          N419780 N418664 Diode_Blue 
+R_R20         OUT3 N434380  665 TC=0,0 
+R_R11         N42184 VCC  261 TC=0,0 
+R_R21         N42836 VCC  301 TC=0,0 
+R_R17         OUT5 N436260  665 TC=0,0 
+R_R31         0 N42646  1k TC=0,0 
+D_D4          N430380 N429424 Diode_Orange 
+X_U3A         N41698 N42170 VCC -VCC VOUT1 TL082
+X_U11B         VOUT1 N43156 VCC -VCC N429424 TL082
+X_U6B         N42472 VOUT1 VCC -VCC OUT2 TL082
+R_R32         N43580 VCC  6.34k TC=0,0 
+X_U2B         VCC VOUT1 VCC -VCC OUT1 TL082
+.PARAM  rntc=47.5k
+
+**** RESUMING timpparamterlist.cir ****
+.END
+
+**** 05/16/22 09:31:33 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-timpparamterlist"  [ C:\Users\Body_\Desktop\An 2\UTCN-ETTI SEM II\CAD\Proiect Termometru\OrcadTermometru_Fin
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Diode_Orange    yellowDiode     Diode_Red       Diode_Green     
+          IS   14.843000E-09  457.360000E-15   10.000000E-21  171.180000E-12 
+           N    4.995           2.5364          1.7199          3.6712       
+         ISR                                                  100.000000E-12 
+         IKF                                                  998.05         
+          BV                                                  100            
+         IBV                                                  100.000000E-06 
+          RS   16.331           4.18            9.5315         17.961        
+          TT                                                    5.000000E-09 
+         CJO                                                    1.000000E-12 
+          VJ                                                     .75         
+           M                                                     .3333       
+
+
+               Diode_Blue      X_U5B.dx        X_U5B.dy        X_U4B.dx        
+          IS    7.170600E-12  800.000000E-18  800.000000E-18  800.000000E-18 
+           N    4.995                                                        
+          RS   16.774                           1.000000E-03                 
+         CJO                                   10.000000E-12                 
+
+
+               X_U4B.dy        X_U9B.dx        X_U9B.dy        X_U8B.dx        
+          IS  800.000000E-18  800.000000E-18  800.000000E-18  800.000000E-18 
+          RS    1.000000E-03                    1.000000E-03                 
+         CJO   10.000000E-12                   10.000000E-12                 
+
+
+               X_U8B.dy        X_U13B.dx       X_U13B.dy       X_U7B.dx        
+          IS  800.000000E-18  800.000000E-18  800.000000E-18  800.000000E-18 
+          RS    1.000000E-03                    1.000000E-03                 
+         CJO   10.000000E-12                   10.000000E-12                 
+
+
+               X_U7B.dy        X_U12B.dx       X_U12B.dy       X_U10B.dx       
+          IS  800.000000E-18  800.000000E-18  800.000000E-18  800.000000E-18 
+          RS    1.000000E-03                    1.000000E-03                 
+         CJO   10.000000E-12                   10.000000E-12                 
+
+
+               X_U10B.dy       X_U1A.dx        X_U1A.dy        X_U3A.dx        
+          IS  800.000000E-18  800.000000E-18  800.000000E-18  800.000000E-18 
+          RS    1.000000E-03                    1.000000E-03                 
+         CJO   10.000000E-12                   10.000000E-12                 
+
+
+               X_U3A.dy        X_U11B.dx       X_U11B.dy       X_U6B.dx        
+          IS  800.000000E-18  800.000000E-18  800.000000E-18  800.000000E-18 
+          RS    1.000000E-03                    1.000000E-03                 
+         CJO   10.000000E-12                   10.000000E-12                 
+
+
+               X_U6B.dy        X_U2B.dx        X_U2B.dy        
+          IS  800.000000E-18  800.000000E-18  800.000000E-18 
+          RS    1.000000E-03                    1.000000E-03 
+         CJO   10.000000E-12                   10.000000E-12 
+
+
+**** 05/16/22 09:31:33 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-timpparamterlist"  [ C:\Users\Body_\Desktop\An 2\UTCN-ETTI SEM II\CAD\Proiect Termometru\OrcadTermometru_Fin
+
+
+ ****     Junction FET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U5B.jx1       X_U5B.jx2       X_U4B.jx1       X_U4B.jx2       
+               NJF             NJF             NJF             NJF             
+         VTO   -1              -1              -1              -1            
+        BETA  222.070000E-06  222.070000E-06  222.070000E-06  222.070000E-06 
+          IS  100.000000E-12  100.000000E-12  100.000000E-12  100.000000E-12 
+
+
+               X_U9B.jx1       X_U9B.jx2       X_U8B.jx1       X_U8B.jx2       
+               NJF             NJF             NJF             NJF             
+         VTO   -1              -1              -1              -1            
+        BETA  222.070000E-06  222.070000E-06  222.070000E-06  222.070000E-06 
+          IS  100.000000E-12  100.000000E-12  100.000000E-12  100.000000E-12 
+
+
+               X_U13B.jx1      X_U13B.jx2      X_U7B.jx1       X_U7B.jx2       
+               NJF             NJF             NJF             NJF             
+         VTO   -1              -1              -1              -1            
+        BETA  222.070000E-06  222.070000E-06  222.070000E-06  222.070000E-06 
+          IS  100.000000E-12  100.000000E-12  100.000000E-12  100.000000E-12 
+
+
+               X_U12B.jx1      X_U12B.jx2      X_U10B.jx1      X_U10B.jx2      
+               NJF             NJF             NJF             NJF             
+         VTO   -1              -1              -1              -1            
+        BETA  222.070000E-06  222.070000E-06  222.070000E-06  222.070000E-06 
+          IS  100.000000E-12  100.000000E-12  100.000000E-12  100.000000E-12 
+
+
+               X_U1A.jx1       X_U1A.jx2       X_U3A.jx1       X_U3A.jx2       
+               NJF             NJF             NJF             NJF             
+         VTO   -1              -1              -1              -1            
+        BETA  222.070000E-06  222.070000E-06  222.070000E-06  222.070000E-06 
+          IS  100.000000E-12  100.000000E-12  100.000000E-12  100.000000E-12 
+
+
+               X_U11B.jx1      X_U11B.jx2      X_U6B.jx1       X_U6B.jx2       
+               NJF             NJF             NJF             NJF             
+         VTO   -1              -1              -1              -1            
+        BETA  222.070000E-06  222.070000E-06  222.070000E-06  222.070000E-06 
+          IS  100.000000E-12  100.000000E-12  100.000000E-12  100.000000E-12 
+
+
+               X_U2B.jx1       X_U2B.jx2       
+               NJF             NJF             
+         VTO   -1              -1            
+        BETA  222.070000E-06  222.070000E-06 
+          IS  100.000000E-12  100.000000E-12 
+
+
+
+          JOB CONCLUDED
+
+**** 05/16/22 09:31:33 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-timpparamterlist"  [ C:\Users\Body_\Desktop\An 2\UTCN-ETTI SEM II\CAD\Proiect Termometru\OrcadTermometru_Fin
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .11
+
